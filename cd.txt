@@ -1,0 +1,23 @@
+What is the main contribution of this paper?
+What problem does this paper solve?
+What method does the paper propose?
+What are the limitations?
+What does Figure 2 show?
+Explain Fig. 1.
+What is shown in Table 3?
+图 2 讲了什么？
+表 3 的结果是什么？
+
+
+重启步骤
+后端：
+
+cd C:\Users\xih_y\OneDrive\Desktop\CogniCopliot\backend
+uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+前端：
+
+cd C:\Users\xih_y\OneDrive\Desktop\CogniCopliot\frontend
+npm run dev -- --hostname localhost --port 3000
+然后打开：
+
+http://localhost:3000/upload
