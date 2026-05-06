@@ -1,1 +1,7 @@
+backend/data/
+frontend/.env.local
+obsidian-plugin/main.js
+obsidian-plugin/src/*.js
+node_modules/
+.venv/
 .env
